@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Montserrat';
+    display: flex;
 }
 header {
     width: 1200px;
@@ -26,13 +27,14 @@ header {
     width: 220px;
     color: white;
     padding: 40px;
+
 }
 .work {
     background-color: #f9f5ef;
     width: 220px;
     color: #3f4538;
     padding: 40px;
-    justify-content: flex-end;
-
 }
+.main {
+    display: flex;
 }
