@@ -12,8 +12,8 @@ header {
 .img {
     display: flex;
     justify-content: left;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
 }
 .name {
     display: flex;
@@ -21,27 +21,28 @@ header {
     background-color: #3f4538;
     color: white;
     flex-direction: column;
-    width: 1200px;
-    padding: 40px 40px;
+    width: 70%;
+    padding: 50px 70px;
 }
 .contact {
     background-color: #a6b69a;
-    width: 220px;
+    width: 43%;
     color: white;
-    padding: 40px;
+    padding: 50px ;
 
 }
 .work {
     background-color: #f9f5ef;
     width: 220px;
     color: #3f4538;
-    padding: 40px;
- width: 100%;
+    padding: 50px 70px;
+ 
+    width: 60%;
 }
 .main {
     display: flex;
     width: 1200px;
-    flex-direction: column;
+    flex-direction: row;
    
 }
 .expertise {
@@ -61,11 +62,4 @@ header {
     background: #3f4538 none repeat scroll;
     border-radius: 5px;
     height: 10px;
-}
-.width65 {
-    width: 65%;
-    background: #3f4538 none repeat scroll;
-}
-.width40 {
-    width: 40%;
 }
